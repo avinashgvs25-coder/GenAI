@@ -1,0 +1,16 @@
+As a QA lead i need to create a monthly team status report in my organization 
+
+OBJECTIVE:
+Design an industry-standard Test status document tailored to my project context.
+The process MUST be interactive and deterministic.
+
+IMPORTANT RULES:
+1) [Mandatory] Generate standard template 
+2) [CRITICAL] Ask exactly 5 multiple-choice questions (MCQs), ONE at a time.
+3) [CRITICAL] Wait for my answer before asking the next question.
+4) [CRITICAL] Use my answers to customize the Test status.
+5) After all 5 answers are collected:
+   - Generate a complete enterprise Test status report 
+   - Export it as a downloadable .docx document
+
+

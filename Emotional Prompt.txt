@@ -1,0 +1,36 @@
+
+1. ---Generate a Resume normal prompt
+
+create a resume , role as a testlead experienced for 10 years as Gen AI specilized 
+
+[MANDAORY] Handled large and medium scale team 
+[MANDAORY] gen AI certifate done in testleaf
+[MANDAORY] Done some real time project (creating testcase gen tool and as well automation script gen)
+[CRITICAL] Also have experienced in automation (playwright and selenium)
+[CRITICAL] Ask exactly 5 multiple-choice questions (MCQs), ONE at a time.
+[CRITICAL] Wait for my answer before asking the next question.
+[CRITICAL] Use my answers to customize the Resume.
+
+Output
+Export it as a downloadable .docx document
+
+
+
+
+2. ---Generate a Resume with emotional prompting (using same above one with emotional)
+
+
+create a resume , role as a testlead experienced for 10 years as Gen AI specilized 
+
+[MANDAORY] Handled large and medium scale team 
+[MANDAORY] gen AI certifate done in testleaf
+[MANDAORY] Done some real time project (creating testcase gen tool and as well automation script gen)
+[CRITICAL] A poorly structured resume can cost my dream job with Amazon
+[CRITICAL] My resume isn’t just a piece of paper—it’s the key to unlocking your next career opportunity
+[CRITICAL] Also have experienced in automation (playwright and selenium)
+[CRITICAL] Ask exactly 5 multiple-choice questions (MCQs), ONE at a time.
+[CRITICAL] Wait for my answer before asking the next question.
+[CRITICAL] Use my answers to customize the Resume.
+
+Output
+Export it as a downloadable .docx document

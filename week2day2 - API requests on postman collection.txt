@@ -1,0 +1,47 @@
+1. S07 – Generating Accessibility From DOM (HW)
+
+****Ans****: I tried using grap appplication https://console.groq.com/docs/overview with accessibility mode and below you can see my body and i got the response back 
+
+{
+      "role": "user",
+      "content": "I — INSTRUCTION\nAnalyze the provided Accessibility DOM and identify accessibility observations against WCAG 2.2 standards.\n\nMANDATORY RULES:\n1) Use ONLY the given Accessibility DOM.\n2) Do NOT assume visual styling, color contrast, or keyboard behavior unless explicitly present in the DOM.\n3) Classify findings under WCAG Level A, AA, and AAA.\n4) Clearly state whether each observation is Compliant, Potential Risk, or Non-Compliant.\n5) Do NOT suggest implementation fixes.\n\nACCESSIBILITY DOM:\nARIA Attributes\nNo ARIA attributes\nComputed Properties\nName: \"Groq\"\naria-labelledby: Not specified\naria-label: Not specified\nContents: \"Groq\"\ntitle: Not specified\nRole: link\nFocusable: true\nurl: \"https://console.groq.com/home\""
+    }
+
+
+
+2. S08 – Stop Generating Testcases (HW) : 
+
+****Ans****: I tried using the stop parameter with values 6 and 2, the test case generator produced 5 cases for stop=6 and 2 cases for stop=2
+below is the EXAMPLE For stop = 2 
+
+
+{
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+     "stop" : [":2"],
+  "messages": [
+    {
+         "role": "system",
+         "content": "You are a Senior QA Analyst experienced in converting Agile user stories into high-quality, review-ready test cases."
+    },
+    {
+      "role": "user",
+      "content": "I — INSTRUCTION\nConvert the provided User Stories and Acceptance Criteria into detailed, testable Test Cases.\n\nMANDATORY RULES:\n1) Derive test cases ONLY from the given user stories and acceptance criteria.\n2) Do NOT add assumptions or new requirements.\n3) Cover positive, negative, and validation scenarios.\n4) Write test cases from an end-user perspective.\n5) Do NOT include implementation or technical details.\n\nC — CONTEXT\nThese test cases will be used by QA teams for manual and automation testing in an enterprise healthcare application.\n\nP — PERSONA\nYou are a Senior QA Analyst experienced in converting Agile user stories into high-quality, review-ready test cases.\n\nO — OUTPUT\nReturn test cases in the following structured format:\n- TC_ID:1\n- Title\n- Preconditions\n- Test Steps\n- Test Data\n- Expected Result Type\n Positive Negative Edge\n\nRules:\n- Each test case must be clear and independent\n- Use business-readable language only\n- One scenario per test case\n\nUSER STORY:\nAs a user, I want to record doctor activities and doctor notes so that the related functionality works as expected.\n\nACCEPTANCE CRITERIA:\nGiven the system is operational,\nWhen the user performs the intended action,\nThen the system should respond accurately and meet functional expectations. with 10 testcases"
+    }
+  ]
+}
+
+
+3. • S14 – Top_p Testcase Generation (HW)
+
+****Ans****: When I set top_p to 1, the outputs I received were more generic and repetitive, focusing on safe scenarios like valid/invalid registrations and cancellations. However, when I lowered top_p to 0.4, the outputs became more precise, detailed, and domain-specific, with richer variations such as handling multiple insurance providers or invalid patient IDs.
+Based on this comparison, I found that top_p: 0.4 produces sharper, more context
+
+4. • S17 – DOM to Selenium Code (HW)
+****Ans****: while running noted 400 issue, and reseached and noted include_reasoning isn’t available for this model.So, i Remove it, and request run successfully 
+
+5. S22 – WebSearch (HW)
+
+****Ans****: I tried and got this output 77°F (day), 75°F (night)  
+Source: World Weather – Chennai January 2026 (weather-atlas.com in Bing)
+
+
